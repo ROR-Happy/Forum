@@ -1,0 +1,7 @@
+@import "bootstrap";
+
+.forum_post {
+  &:target {
+    background: gold;
+  }
+}

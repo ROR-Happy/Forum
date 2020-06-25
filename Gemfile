@@ -37,6 +37,9 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
+  gem "annotate", "~> 3.1"
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :development do
@@ -50,3 +53,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "devise", "~> 4.7"
+
+
+
+gem "bootstrap", "~> 4.5"
+
+gem "record_tag_helper", "~> 1.0"
